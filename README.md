@@ -74,6 +74,37 @@ This will create a compiled gresource bundle in the
 `src/main/gresource` folder. Change the `RESOURCE_DIR` in
 `Example.java` accordingly.
 
+### Translations
+
+Translations work with GNU gettext. The textdomain used in the
+template application is "example".
+
+All source files that contain translatable strings, must be added
+to `po/POTFILES.in`.
+
+To create translatable strings in Java, use the `Intl::i18n`.
+Comments with translation instructions must start with
+`TRANSLATORS: ` to be included in the po-files.
+
+Note: The `Intl` class is currently included in this
+repository, but will eventually be available in Java-GI itself.
+
+To recompile the `example.pot` file, run:
+
+```
+meson setup ../builddir
+meson compile example-pot -C ../builddir
+```
+
+Regenerate the po-files by running:
+
+```
+meson compile example-update-po -C ../builddir
+```
+
+The template application includes one translation (nl). Add or
+remove languages in `po/LINGUAS`.
+
 ## Adding dependencies
 
 When you change any of the dependencies in the Gradle build
