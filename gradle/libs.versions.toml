@@ -1,0 +1,18 @@
+[versions]
+flatpak-generator = "1.5.0"
+java-gi = "0.13.0"
+
+[plugins]
+flatpak-generator = { id = "io.github.jwharm.flatpak-gradle-generator", version.ref = "flatpak-generator" }
+
+[libraries]
+java-gi-glib = { group = "org.java-gi", name = "glib", version.ref = "java-gi" }
+java-gi-gtk = { group = "org.java-gi", name = "gtk", version.ref = "java-gi" }
+java-gi-adw = { group = "org.java-gi", name = "adw", version.ref = "java-gi" }
+
+[bundles]
+java-gi = [
+    "java-gi-glib",
+    "java-gi-gtk",
+    "java-gi-adw",
+]
