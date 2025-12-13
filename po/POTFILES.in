@@ -1,7 +1,9 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
 data/org.domain.Example.desktop.in
-data/org.domain.Example.metainfo.xml.in
 data/org.domain.Example.gschema.xml
-src/main/java/org/domain/ExampleApplication.java
+data/org.domain.Example.metainfo.xml.in
 src/main/gresource/example-window.ui
+src/main/java/org/domain/Example.java
+src/main/java/org/domain/ExampleApplication.java
+src/main/java/org/domain/ExampleWindow.java
