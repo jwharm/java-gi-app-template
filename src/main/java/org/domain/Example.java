@@ -2,9 +2,8 @@ package org.domain;
 
 import org.javagi.base.GErrorException;
 import org.javagi.interop.Interop;
+import org.javagi.util.Intl;
 import org.gnome.gio.Resource;
-
-import org.domain.util.Intl;
 
 /**
  * The "main" class, here we initialize gettext, register the compiled

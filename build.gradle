@@ -9,7 +9,7 @@ repositories {
 }
 
 dependencies {
-    implementation "org.java-gi:adw:0.13.0"
+    implementation "org.java-gi:adw:0.13.1"
 }
 
 // Generate a file with all dependency urls for the offline flatpak build

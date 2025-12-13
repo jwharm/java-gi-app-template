@@ -8,7 +8,7 @@ import org.gnome.gio.ApplicationFlags;
 import org.gnome.gio.SimpleAction;
 import org.gnome.glib.Variant;
 
-import static org.domain.util.Intl.i18n;
+import static org.javagi.util.Intl.i18n;
 
 /**
  * ExampleApplication is derived from AdwApplication. The class is registered
