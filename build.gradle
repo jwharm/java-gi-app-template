@@ -1,6 +1,8 @@
+import org.apache.tools.ant.taskdefs.condition.Os
+
 plugins {
     id "application"
-    id "io.github.jwharm.flatpak-gradle-generator" version "1.5.0"
+    id "io.github.jwharm.flatpak-gradle-generator" version "1.6.0"
 }
 
 repositories {
@@ -24,14 +26,45 @@ java {
     }
 }
 
-// This task will install into the "/app" directory.
+// This task will install into the "/app" directory, even when it is not empty
 task install(type: Copy) {
 	from installDist
-	into '/app'
+	into "/app"
 }
 
 application {
     applicationName = "example"
     mainClass = "org.domain.Example"
+
+    // Allow native access
     applicationDefaultJvmArgs += "--enable-native-access=ALL-UNNAMED"
+
+    // Add common library directories to the library lookup path
+    if (Os.isFamily(Os.FAMILY_MAC))
+        applicationDefaultJvmArgs += [
+            "-Djavagi.library.path=/opt/homebrew/lib",
+            "-XstartOnFirstThread"
+        ]
+    else if (Os.isFamily(Os.FAMILY_WINDOWS))
+        applicationDefaultJvmArgs += [
+            "-Djavagi.library.path=C:/msys64/mingw64/bin"
+        ]
+    else
+        applicationDefaultJvmArgs += [
+            "-Djavagi.library.path=/usr/lib/x86_64-linux-gnu:/lib64:/usr/lib64:/lib:/usr/lib",
+        ]
+}
+
+/* This task can be used to manually compile a gresource bundle.
+ *
+ * Make sure that "glib-compile-resources" is installed. It should be included
+ * in the GTK development packages for your operating system (for example, on
+ * Ubuntu, install libglib2.0-dev).
+ */
+tasks.register("compileResources", Exec) {
+    group = "build"
+    commandLine "glib-compile-resources",
+                "--sourcedir=src/main/gresource",
+                "--target=build/org.domain.Example.gresource",
+                "data/org.domain.Example.gresource.xml"
 }

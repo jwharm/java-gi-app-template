@@ -58,25 +58,13 @@ from IntelliJ, start the `application` gradle task.
 
 Be aware that a locally running application cannot load settings
 and translations, but you can load the gresource bundle, provided
-it is compiled first. You can automate that with a custom Gradle
-task:
+it is compiled first. Use `glib-compile-resources` to do that.
 
-```groovy
-tasks.register('compileResources', Exec) {
-    commandLine 'glib-compile-resources',
-                '--sourcedir=src/main/gresource',
-                '--target=build/org.domain.Example.gresource',
-                'data/org.domain.Example.gresource.xml'
-}
-
-tasks.named('compileJava') {
-    dependsOn compileResources
-}
-```
-
-This will create a compiled gresource bundle in the `build`
-folder, so don't forget to change the `RESOURCE_DIR` in
-`Example.java` to `"build"`.
+The Gradle build script contains a `"compileResources"` task for
+convenience. It will create a compiled gresource bundle in the
+`build` folder, so don't forget to change the `RESOURCE_DIR` in
+`Example.java` to `"build"` when you want to run the app with a
+locally compiled gresource bundle.
 
 ### Translations
 
