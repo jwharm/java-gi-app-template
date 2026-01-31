@@ -1,10 +1,10 @@
 {
     "id" : "org.domain.Example",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "48",
+    "runtime-version" : "49",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
-        "org.freedesktop.Sdk.Extension.openjdk"
+        "org.freedesktop.Sdk.Extension.openjdk25"
     ],
     "command" : "/app/bin/example",
     "finish-args" : [
@@ -16,14 +16,14 @@
         {
             "name" : "jre",
             "buildsystem" : "simple",
-            "build-commands" : [ "/usr/lib/sdk/openjdk/install.sh" ]
+            "build-commands" : [ "/usr/lib/sdk/openjdk25/install.sh" ]
         },
         {
             "name" : "gradle_build",
             "buildsystem" : "simple",
             "build-commands" : [ "gradle install" ],
             "build-options" : {
-                "append-path": "/usr/lib/sdk/openjdk/gradle/bin:/usr/lib/sdk/openjdk/jvm/openjdk-23/bin"
+                "append-path": "/usr/lib/sdk/openjdk25/gradle/bin:/usr/lib/sdk/openjdk25/jvm/openjdk-25/bin"
             },
         	"sources" : [
                 { "type" : "dir", "path" : ".." },

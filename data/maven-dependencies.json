@@ -92,128 +92,149 @@
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/java-gi/adw/0.13.1/adw-0.13.1.jar",
-    "sha512": "18ce8ecb7b6ccc41ca1f405cc93c0e766e8d14ff700851431b56271c50943a826f8a6eabe051976557a3f88f36494ec83209b4946aaea072e9cdec08fcaf5915",
-    "dest": "build/repository/org/java-gi/adw/0.13.1",
-    "dest-filename": "adw-0.13.1.jar"
+    "url": "https://repo.maven.apache.org/maven2/org/java-gi/adw/0.14.0/adw-0.14.0.jar",
+    "sha512": "af7083c0690ddb6db9ee3b04b8e3f2b3b6900f8abc778baa278f77e91eb78709260132c7de2dfc28e5addb895bc1dcd0e8cba325855e2d9f8420eef83e583b70",
+    "dest": "build/repository/org/java-gi/adw/0.14.0",
+    "dest-filename": "adw-0.14.0.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/java-gi/adw/0.13.1/adw-0.13.1.module",
-    "sha512": "80c1fc894021617035685b94e559838fcae960c1240c6d78c4346d68161f8311b281906e2742aa351f058cf73c81d0d7545e1de45250a8bde5354e12e2f7d460",
-    "dest": "build/repository/org/java-gi/adw/0.13.1",
-    "dest-filename": "adw-0.13.1.module"
+    "url": "https://repo.maven.apache.org/maven2/org/java-gi/adw/0.14.0/adw-0.14.0.module",
+    "sha512": "87ae4897295d57c4ae22ce8167d564e70daf8ca99f95f4bcb6ca5971733368af556dbd47bda0aead26659a68a048d2f78202de1931e66232453f39979262ac51",
+    "dest": "build/repository/org/java-gi/adw/0.14.0",
+    "dest-filename": "adw-0.14.0.module"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/java-gi/adw/0.13.1/adw-0.13.1.pom",
-    "sha512": "34a3c7dcb3c0c5d993547e50d155e885dafc51dd0da10fa9894a4f8602595c728564cac5f3292d9418e79a27dc2aa61c1323a6da2983e7fb15156dd830d0018e",
-    "dest": "build/repository/org/java-gi/adw/0.13.1",
-    "dest-filename": "adw-0.13.1.pom"
+    "url": "https://repo.maven.apache.org/maven2/org/java-gi/adw/0.14.0/adw-0.14.0.pom",
+    "sha512": "5c52e141b8f8acec2a16e510824e76438cf93b553fdb1f5066a70c3cfe2bd906ef663a367d4357e0aeda0eded0ac8d565815a4e3f5aa263a7c3a2b69e872601c",
+    "dest": "build/repository/org/java-gi/adw/0.14.0",
+    "dest-filename": "adw-0.14.0.pom"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/java-gi/gdkpixbuf/0.13.1/gdkpixbuf-0.13.1.jar",
-    "sha512": "b7a1a339a2c5ee92475ba7decea61217d361abf180e6b1a6d91984c7a8e8f946a6d1a4b84f7f4dea3850a60bf2af4b386cfbf7b33cc16f1091c1680b1a22ea7a",
-    "dest": "build/repository/org/java-gi/gdkpixbuf/0.13.1",
-    "dest-filename": "gdkpixbuf-0.13.1.jar"
+    "url": "https://repo.maven.apache.org/maven2/org/java-gi/gdkpixbuf/0.14.0/gdkpixbuf-0.14.0.jar",
+    "sha512": "a99c1a14c61027b1eb40bab9682639e4f9c1a508f54b9ab89a333019370ecbdc8b6b76d1cf36c4d405821e14c49c7eb2c6d158b8128def293fdf94f84fe9aa0a",
+    "dest": "build/repository/org/java-gi/gdkpixbuf/0.14.0",
+    "dest-filename": "gdkpixbuf-0.14.0.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/java-gi/gdkpixbuf/0.13.1/gdkpixbuf-0.13.1.module",
-    "sha512": "9bcbf53f50f5e569282b961bc70de8a263cc16ea50878978f218719e5b4a838e4090a2b5f683300809ab222bc13b730aef7c89b0c9aae506a23e2234c4f10ed4",
-    "dest": "build/repository/org/java-gi/gdkpixbuf/0.13.1",
-    "dest-filename": "gdkpixbuf-0.13.1.module"
+    "url": "https://repo.maven.apache.org/maven2/org/java-gi/gdkpixbuf/0.14.0/gdkpixbuf-0.14.0.module",
+    "sha512": "cd153e96e793c17cb499564ecfac4fc3d8f79c00d22c2f24b62bea949fdb7c1dc615a2fd3397eb9885c56bfb3be11aed92e86eaa056125b0567363f1fe0bf693",
+    "dest": "build/repository/org/java-gi/gdkpixbuf/0.14.0",
+    "dest-filename": "gdkpixbuf-0.14.0.module"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/java-gi/gdkpixbuf/0.13.1/gdkpixbuf-0.13.1.pom",
-    "sha512": "e2a02378947547b77ab86ab3929636f87c4f9d528abfeaaa2cd537829b73464131d99f9dd667995cbc1e32d58d52d9b0324e8e3cbd49b5254996cd0baf6a114e",
-    "dest": "build/repository/org/java-gi/gdkpixbuf/0.13.1",
-    "dest-filename": "gdkpixbuf-0.13.1.pom"
+    "url": "https://repo.maven.apache.org/maven2/org/java-gi/gdkpixbuf/0.14.0/gdkpixbuf-0.14.0.pom",
+    "sha512": "50a5820316b854b4a7ceebd977a74f1b219b2e21673a736a6bffe0e2a415026828b6f61053b1f5e12d6ee84d5675ee4e50a0e49038355e7fcd4f57c810f91610",
+    "dest": "build/repository/org/java-gi/gdkpixbuf/0.14.0",
+    "dest-filename": "gdkpixbuf-0.14.0.pom"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/java-gi/glib/0.13.1/glib-0.13.1.jar",
-    "sha512": "1d4a4deb4d3f43dc4831c0e690cd12cec5863786692fc59040e0aae744e461e18253d66c6d503f79222b2f4cda89a5a38e7245a667bd7e0d98f6eefb532eeb88",
-    "dest": "build/repository/org/java-gi/glib/0.13.1",
-    "dest-filename": "glib-0.13.1.jar"
+    "url": "https://repo.maven.apache.org/maven2/org/java-gi/glib/0.14.0/glib-0.14.0.jar",
+    "sha512": "87596686f4c04e60a80fe662a6b95c81d04060779445dd2041a8326fc824ec1db34c6db1c40c231db031c2eacd8fcb22c0bdd2cdc871ceb476dbfac2e187864f",
+    "dest": "build/repository/org/java-gi/glib/0.14.0",
+    "dest-filename": "glib-0.14.0.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/java-gi/glib/0.13.1/glib-0.13.1.module",
-    "sha512": "c46b81728d90e4a9a2088afebdbe762cca16c3c42702c894aa1ca5687b1771e77ece19a4c2cf0832d190ce0c3b306294e77ef34ab85e7c6b3413eaec520bc625",
-    "dest": "build/repository/org/java-gi/glib/0.13.1",
-    "dest-filename": "glib-0.13.1.module"
+    "url": "https://repo.maven.apache.org/maven2/org/java-gi/glib/0.14.0/glib-0.14.0.module",
+    "sha512": "79cde01e8a119f2fba3c2a6a0a4005a3582b7b8550c87b757582d7706312e707892e86331a64da3ac9f2af4531de1e50512c306397df53c52861810527424050",
+    "dest": "build/repository/org/java-gi/glib/0.14.0",
+    "dest-filename": "glib-0.14.0.module"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/java-gi/glib/0.13.1/glib-0.13.1.pom",
-    "sha512": "3e24e8c12f1f45d866dc650445da192de6825406763be640bc3f3fa58a9f8e563390b92ea2c5dc3de65edcd5df071ca16e6ac9be36b0e0f316bdbeebf4f615a5",
-    "dest": "build/repository/org/java-gi/glib/0.13.1",
-    "dest-filename": "glib-0.13.1.pom"
+    "url": "https://repo.maven.apache.org/maven2/org/java-gi/glib/0.14.0/glib-0.14.0.pom",
+    "sha512": "e9b947b5763f2c950765fa75dca1a4bb9d4116a71fef1af2450342ba36d58ac149a8b781e969d431b4b80b72bcf3bbe6a354dc4077f385786b4e0f49f2c8cb76",
+    "dest": "build/repository/org/java-gi/glib/0.14.0",
+    "dest-filename": "glib-0.14.0.pom"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/java-gi/gtk/0.13.1/gtk-0.13.1.jar",
-    "sha512": "02b2beb692a48677ea455eafc22b825eb98194e208bb1e04752082c997eae98fbb82f79cae0b9415a2c6a8b8da79be51302a7449306f4b8a4546bb69583333b0",
-    "dest": "build/repository/org/java-gi/gtk/0.13.1",
-    "dest-filename": "gtk-0.13.1.jar"
+    "url": "https://repo.maven.apache.org/maven2/org/java-gi/gtk/0.14.0/gtk-0.14.0.jar",
+    "sha512": "3c2ce227023456201fd10502b26f1886f0699e04aa4e4a4b26f9e977718799e0c2cb6c88e5cb9c56fad719849cb83021b5a1684c371838e0d9f3c281a6f41ff6",
+    "dest": "build/repository/org/java-gi/gtk/0.14.0",
+    "dest-filename": "gtk-0.14.0.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/java-gi/gtk/0.13.1/gtk-0.13.1.module",
-    "sha512": "6f5c8a1f8ceae1c09d72e442bf52025bff4f714107f6aff5c7cb88676daac9c7a5a6bf7ff574fbcaa604e158bf3518df5dd7c332025c7a2d81287b1b9a7957a8",
-    "dest": "build/repository/org/java-gi/gtk/0.13.1",
-    "dest-filename": "gtk-0.13.1.module"
+    "url": "https://repo.maven.apache.org/maven2/org/java-gi/gtk/0.14.0/gtk-0.14.0.module",
+    "sha512": "7bd3c555f014af3a468fdc617b04c9f4da02bbdfa407b6f212059ab6912255a47e3fce23d9a5cb19034f759efedcde0a030474adfe051622f512ca7362e1e650",
+    "dest": "build/repository/org/java-gi/gtk/0.14.0",
+    "dest-filename": "gtk-0.14.0.module"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/java-gi/gtk/0.13.1/gtk-0.13.1.pom",
-    "sha512": "6e0c0ec9324945ba6f715139ce516a0049e85e771be3d71b0d463f1cd15d7ac90e60dd224069abc3fcee82fbb9ba28d09e3c03cc9b59d561a2d424fe2899f458",
-    "dest": "build/repository/org/java-gi/gtk/0.13.1",
-    "dest-filename": "gtk-0.13.1.pom"
+    "url": "https://repo.maven.apache.org/maven2/org/java-gi/gtk/0.14.0/gtk-0.14.0.pom",
+    "sha512": "978ee93f0af159aae9438e5556e7430541199c14fcca030a042e4651d22e13ee0ec8b7eda1571e3050f5a5312a4ec8e34b9f56eca0b5324b02908a1bf4329733",
+    "dest": "build/repository/org/java-gi/gtk/0.14.0",
+    "dest-filename": "gtk-0.14.0.pom"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/java-gi/harfbuzz/0.13.1/harfbuzz-0.13.1.jar",
-    "sha512": "5880c622258efe6e97805b71f7ef6e8a0980932475ff76a03a16cb0a13d888ce445e453c7a793bd7019c4451c51ecab75ddbf0f3e6bd6ab98c444671e963c240",
-    "dest": "build/repository/org/java-gi/harfbuzz/0.13.1",
-    "dest-filename": "harfbuzz-0.13.1.jar"
+    "url": "https://repo.maven.apache.org/maven2/org/java-gi/harfbuzz/0.14.0/harfbuzz-0.14.0.jar",
+    "sha512": "320d5ce2e0fb81e049950f903dcaca0ea89b710473d58051041042a64455782c534ac7d7e6f2eacf5320d62778625ad4f9f24b5570f9e91ca5dcd8eb7019ed96",
+    "dest": "build/repository/org/java-gi/harfbuzz/0.14.0",
+    "dest-filename": "harfbuzz-0.14.0.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/java-gi/harfbuzz/0.13.1/harfbuzz-0.13.1.module",
-    "sha512": "839d11852b6736b0982443e009b82638db88e184f32add21edd807790bbb0bd40218a5e382bd5f8912cfa1aedcd290a0b391a8f815f88045b4952f0c465f1b15",
-    "dest": "build/repository/org/java-gi/harfbuzz/0.13.1",
-    "dest-filename": "harfbuzz-0.13.1.module"
+    "url": "https://repo.maven.apache.org/maven2/org/java-gi/harfbuzz/0.14.0/harfbuzz-0.14.0.module",
+    "sha512": "52c8bc65c21bfd8adef18d408218943623ad857d4ddb4e33f30fbc0319374e748c7789007f3867dfeb0fc49299c24854b93a9a05bf77fdd86bfea7aa7618e222",
+    "dest": "build/repository/org/java-gi/harfbuzz/0.14.0",
+    "dest-filename": "harfbuzz-0.14.0.module"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/java-gi/harfbuzz/0.13.1/harfbuzz-0.13.1.pom",
-    "sha512": "3fa63ff33ed1c75e0819493a2c6378db092790f35d2ba481f2d86e457e80029a0b8811cf674c04c88750c16cca6aa83f0ab031caf8ea15aaa5a64de5e07a9863",
-    "dest": "build/repository/org/java-gi/harfbuzz/0.13.1",
-    "dest-filename": "harfbuzz-0.13.1.pom"
+    "url": "https://repo.maven.apache.org/maven2/org/java-gi/harfbuzz/0.14.0/harfbuzz-0.14.0.pom",
+    "sha512": "acde6c10429dbf3a4c6ccede6e022086360824a85e922d37ae09f010b9214d02ad414309c301d726c7eb9406677dcc6cd2e2eaa31663e2a3008ea46bf1b847d7",
+    "dest": "build/repository/org/java-gi/harfbuzz/0.14.0",
+    "dest-filename": "harfbuzz-0.14.0.pom"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/java-gi/pango/0.13.1/pango-0.13.1.jar",
-    "sha512": "b02a5e6100cc64dd56dc83274a1e21fd12de2bb1d46c78fed0f88cfae19377f642886a0137418fdf486b26649a8d5ddef178848b2f1803794048d0f05d10c840",
-    "dest": "build/repository/org/java-gi/pango/0.13.1",
-    "dest-filename": "pango-0.13.1.jar"
+    "url": "https://repo.maven.apache.org/maven2/org/java-gi/pango/0.14.0/pango-0.14.0.jar",
+    "sha512": "096e68178f96c8cc05b56674fed0f0ae955a9f1ae2340e28e84edde479a64a5d629081512422afc63dca1d262914c79edcb3c15afaaa80376ddfb64e3932e1cb",
+    "dest": "build/repository/org/java-gi/pango/0.14.0",
+    "dest-filename": "pango-0.14.0.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/java-gi/pango/0.13.1/pango-0.13.1.module",
-    "sha512": "3cf0efacd1363d39bd786dd1f00486d6e449dd154019fd6356abfc97af8b1615823861cd9b50e5b535b4bfd6afb4b19270c51049b4622d72fa37a57bc5a5f47f",
-    "dest": "build/repository/org/java-gi/pango/0.13.1",
-    "dest-filename": "pango-0.13.1.module"
+    "url": "https://repo.maven.apache.org/maven2/org/java-gi/pango/0.14.0/pango-0.14.0.module",
+    "sha512": "ed29a0c4d2f2e7093b694ccf5a2420d83b5c54d40d4a6a489742d5124d19d515f4cbd76367a480e69ab7bda9efbab758fcd04ec622642ca1a5ebe8b1314a1250",
+    "dest": "build/repository/org/java-gi/pango/0.14.0",
+    "dest-filename": "pango-0.14.0.module"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/java-gi/pango/0.13.1/pango-0.13.1.pom",
-    "sha512": "972376784da57831cc8fbacc7ef30f512b59956cddc7e6bd0825fdbb04a467f98ec3cac26425bf8a7bdeece1c97cfe7772661746cef66dca8e2646f9259efb4f",
-    "dest": "build/repository/org/java-gi/pango/0.13.1",
-    "dest-filename": "pango-0.13.1.pom"
+    "url": "https://repo.maven.apache.org/maven2/org/java-gi/pango/0.14.0/pango-0.14.0.pom",
+    "sha512": "75619bf7a4222873e0fb736e237c752983f2b2681330bee35af4fb71d82a64c93c9ebd10c3194a51c5778436c2e77fc1a7cbd1c2a87d97ce13f3bbe040971b76",
+    "dest": "build/repository/org/java-gi/pango/0.14.0",
+    "dest-filename": "pango-0.14.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar",
+    "sha512": "efded31ef5b342f09422935076e599789076431e93a746685c0607e7de5592719ba6aacde0be670b3f064d1e85630d58d5bce6b34aed2a288fdb34f745efb7bc",
+    "dest": "build/repository/org/jspecify/jspecify/1.0.0",
+    "dest-filename": "jspecify-1.0.0.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.module",
+    "sha512": "02669b1c62e0c6988dd812b89201acbe6dad796f3573d6e626d2f56d2194896e198bf3998f0618019b722c7b0c93f013528bff1118f835154f2bd61c17e67b77",
+    "dest": "build/repository/org/jspecify/jspecify/1.0.0",
+    "dest-filename": "jspecify-1.0.0.module"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.pom",
+    "sha512": "291d8fb333121ba18ebd427e7ee5e98694be797b8280a228be7c4958af934b2465f341957248dcd396f5ffbe99dd9a65aa61cef70ca772ee37a92c3d20e41f32",
+    "dest": "build/repository/org/jspecify/jspecify/1.0.0",
+    "dest-filename": "jspecify-1.0.0.pom"
   }
 ]

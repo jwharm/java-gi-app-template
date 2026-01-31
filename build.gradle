@@ -6,12 +6,12 @@ plugins {
 }
 
 repositories {
-    mavenCentral()
     maven { url = "build/repository" } // used by flatpak-builder
+    mavenCentral()
 }
 
 dependencies {
-    implementation "org.java-gi:adw:0.13.1"
+    implementation "org.java-gi:adw:0.14.0"
 }
 
 // Generate a file with all dependency urls for the offline flatpak build
@@ -22,7 +22,7 @@ tasks.flatpakGradleGenerator {
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(23)
+        languageVersion = JavaLanguageVersion.of(25)
     }
 }
 
@@ -42,16 +42,16 @@ application {
     // Add common library directories to the library lookup path
     if (Os.isFamily(Os.FAMILY_MAC))
         applicationDefaultJvmArgs += [
-            "-Djavagi.library.path=/opt/homebrew/lib",
+            "-Djavagi.path=/opt/homebrew/lib",
             "-XstartOnFirstThread"
         ]
     else if (Os.isFamily(Os.FAMILY_WINDOWS))
         applicationDefaultJvmArgs += [
-            "-Djavagi.library.path=C:/msys64/mingw64/bin"
+            "-Djavagi.path=C:/msys64/mingw64/bin"
         ]
     else
         applicationDefaultJvmArgs += [
-            "-Djavagi.library.path=/usr/lib/x86_64-linux-gnu:/lib64:/usr/lib64:/lib:/usr/lib",
+            "-Djavagi.path=/usr/lib/x86_64-linux-gnu:/lib64:/usr/lib64:/lib:/usr/lib",
         ]
 }
 
