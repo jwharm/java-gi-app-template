@@ -41,6 +41,15 @@
 *.so            binary
 *.war           binary
 *.jks           binary
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.gif           binary
+*.gz            binary
+*.zip           binary
+*.7z            binary
+*.ttf           binary
+*.pdf           binary
 
 # Common build-tool wrapper scripts ('.cmd' versions are handled by 'Common.gitattributes')
 mvnw            text eol=lf
