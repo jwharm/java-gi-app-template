@@ -10,7 +10,7 @@ Meson. The Flatpak manifest will first run Gradle and then Meson.
 
 Features:
 
-* GNOME 48 & Adwaita example application, written in Java (OpenJDK 23)
+* GNOME 49 & Adwaita example application, written in Java (OpenJDK 25)
 * Compilation and installation of settings schema and gresource bundle
 * Translated with GNU Gettext
 * Template icons, desktop file, metainfo file
@@ -26,16 +26,16 @@ manually. You'll also want to replace the `COPYING` and
 
 1. Clone this repository into a local folder.
 
-2. Install the GNOME 48 Sdk and Platform runtime:
+2. Install the GNOME 49 Sdk and Platform runtime:
 
     ```
-    flatpak --user install org.gnome.Platform//48 org.gnome.Sdk//48
+    flatpak --user install org.gnome.Platform//49 org.gnome.Sdk//49
     ```
 
 3. Install the OpenJDK flatpak extension:
 
     ```
-    flatpak --user install org.freedesktop.Sdk.Extension.openjdk//24.08
+    flatpak --user install org.freedesktop.Sdk.Extension.openjdk25//25.08
     ```
 
 3. Build and install the application:
@@ -97,16 +97,19 @@ Regenerate the po-files by running:
 meson compile example-update-po -C ../builddir
 ```
 
-The template application includes one translation (nl). Add or
-remove languages in `po/LINGUAS`.
+Add more languages in `po/LINGUAS`. The template application
+includes one translation (nl):
+
+![Screenshot of the application template](screenshot.png)
 
 ## Adding dependencies
 
 When you change any of the dependencies in the Gradle build
-file, regenerate the sources file that is used by flatpak-builder
-in the offline build:
+file, delete and regenerate the sources file that is used by
+flatpak-builder in the offline build:
 
 ```
+rm data/maven-dependencies.json
 ./gradlew flatpak-gradle-generator --no-configuration-cache
 ```
 
