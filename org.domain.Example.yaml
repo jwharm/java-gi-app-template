@@ -19,19 +19,11 @@ modules:
     build-commands:
       - /usr/lib/sdk/openjdk25/install.sh
 
-  - name: gradle_build
-    buildsystem: simple
-    build-commands:
-      - gradle install
+  - name: app
+    buildsystem: meson
     build-options:
-      append-path: '/usr/lib/sdk/openjdk25/gradle/bin:/usr/lib/sdk/openjdk25/jvm/openjdk-25/bin'
+      append-path: "/usr/lib/sdk/openjdk25/gradle/bin:/usr/lib/sdk/openjdk25/jvm/openjdk-25/bin"
     sources:
       - type: dir
         path: .
       - data/maven-dependencies.json
-
-  - name: meson_build
-    buildsystem: meson
-    sources:
-      - type: dir
-        path: .
