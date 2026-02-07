@@ -6,7 +6,7 @@ installed as a flatpak application.
 
 The application is built with Gradle. All additional resources 
 (icons, translations, desktop file, etc) are installed with
-Meson. The Flatpak manifest will first run Gradle and then Meson.
+Meson. The Flatpak manifest will run Meson, and Meson runs Gradle.
 
 Features:
 
