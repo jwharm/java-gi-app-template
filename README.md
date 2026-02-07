@@ -41,8 +41,26 @@ manually. You'll also want to replace the `COPYING` and
 3. Build and install the application:
 
     ```
-    flatpak-builder --force-clean --user --install build/flatpak data/org.domain.Example.json
+    flatpak-builder --force-clean \
+                    --user \
+                    --install \
+                    --state-dir=/tmp/flatpak-builder \
+                    /tmp/builddir \
+                    org.domain.Example.yaml
     ```
+
+The `--force-clean` option will delete previous build files,
+and `--user` will install the app for the current user
+instead of a system-wide installation.
+
+The `--state-dir` option will change the state directory of
+flatpak-builder from `./.flatpak-builder` to `/tmp` because
+IntelliJ IDEA would try to index its contents, and after a few
+minutes will completely freeze to a halt.
+
+The `/tmp/builddir` location can be set to any other directory
+of your choosing, as long as it's on the same filesystem as
+the flatpak-builder state directory.
 
 4. Run the application:
 
