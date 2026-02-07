@@ -27,9 +27,9 @@ java {
 }
 
 // This task will install into the "/app" directory, even when it is not empty
-task install(type: Copy) {
-	from installDist
-	into "/app"
+tasks.register("install", Copy) {
+    from installDist
+    into "/app"
 }
 
 application {
