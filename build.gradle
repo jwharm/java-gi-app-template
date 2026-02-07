@@ -65,6 +65,6 @@ tasks.register("compileResources", Exec) {
     group = "build"
     commandLine "glib-compile-resources",
                 "--sourcedir=src/main/gresource",
-                "--target=build/org.domain.Example.gresource",
+                "--target=data/org.domain.Example.gresource",
                 "data/org.domain.Example.gresource.xml"
 }

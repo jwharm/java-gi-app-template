@@ -80,8 +80,8 @@ it is compiled first. Use `glib-compile-resources` to do that.
 
 The Gradle build script contains a `"compileResources"` task for
 convenience. It will create a compiled gresource bundle in the
-`build` folder, so don't forget to change the `RESOURCE_DIR` in
-`Example.java` to `"build"` when you want to run the app with a
+`data` folder, so don't forget to change the `RESOURCE_DIR` in
+`Example.java` to `"data"` when you want to run the app with a
 locally compiled gresource bundle.
 
 ### Translations
