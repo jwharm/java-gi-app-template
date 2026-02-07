@@ -38,7 +38,7 @@ manually. You'll also want to replace the `COPYING` and
     flatpak --user install org.freedesktop.Sdk.Extension.openjdk25//25.08
     ```
 
-3. Build and install the application:
+4. Build and install the application:
 
     ```
     flatpak-builder --force-clean \
@@ -54,15 +54,15 @@ and `--user` will install the app for the current user
 instead of a system-wide installation.
 
 The `--state-dir` option will change the state directory of
-flatpak-builder from `./.flatpak-builder` to `/tmp` because
-IntelliJ IDEA would try to index its contents, and after a few
-minutes will completely freeze to a halt.
+flatpak-builder from `.flatpak-builder` to a directory in `/tmp`,
+to prevent IntelliJ IDEA from indexing its contents, which can
+significantly slow down or even freeze the IDE.
 
 The `/tmp/builddir` location can be set to any other directory
 of your choosing, as long as it's on the same filesystem as
 the flatpak-builder state directory.
 
-4. Run the application:
+5. Run the application:
 
     ```
     flatpak run org.domain.Example
