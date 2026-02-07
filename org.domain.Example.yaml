@@ -1,0 +1,37 @@
+id: org.domain.Example
+runtime: org.gnome.Platform
+runtime-version: '49'
+
+sdk: org.gnome.Sdk
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.openjdk25
+
+command: /app/bin/example
+
+finish-args:
+  - --device=dri
+  - --socket=wayland
+  - --env=JAVA_HOME=/app/jre
+
+modules:
+  - name: jre
+    buildsystem: simple
+    build-commands:
+      - /usr/lib/sdk/openjdk25/install.sh
+
+  - name: gradle_build
+    buildsystem: simple
+    build-commands:
+      - gradle install
+    build-options:
+      append-path: '/usr/lib/sdk/openjdk25/gradle/bin:/usr/lib/sdk/openjdk25/jvm/openjdk-25/bin'
+    sources:
+      - type: dir
+        path: .
+      - data/maven-dependencies.json
+
+  - name: meson_build
+    buildsystem: meson
+    sources:
+      - type: dir
+        path: .
