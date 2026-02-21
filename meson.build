@@ -16,21 +16,19 @@ gnome.post_install(
   update_desktop_database: true,
 )
 
-# Run Gradle as a custom command. This will run the Gradle build,
-# and install the resulting application into the /app directory.
+app_name = meson.project_name()
 gradle = find_program('gradle')
-output_file = 'gradle_build_done'
+gradle_dir = meson.project_source_root()
+gradle_install_dir = gradle_dir / 'build' / 'install' / app_name + '-shadow'
+
 custom_target('gradle',
     build_by_default: true,
   build_always_stale: true,
-              output: output_file,
-             command: [
-    gradle,
-    '-p',
-    meson.project_source_root(),
-    'install',
-    '&&',
-    'touch',
-    output_file
-  ]
+             install: true,
+         install_dir: [ get_option('bindir'), get_option('libdir') ],
+              output: [ app_name, 'app-all.jar' ],
+             command: [ gradle, '-p', gradle_dir, 'installShadowDist',
+		                '&&', 'mv', gradle_install_dir / 'bin' / app_name, '@OUTPUT0@',
+		                '&&', 'mv', gradle_install_dir / 'lib' / 'app-all.jar', '@OUTPUT1@'
+                      ]
 )

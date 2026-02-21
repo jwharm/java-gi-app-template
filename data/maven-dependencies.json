@@ -1,6 +1,55 @@
 [
   {
     "type": "file",
+    "url": "https://plugins.gradle.org/m2/com/fasterxml/jackson/jackson-bom/2.19.1/jackson-bom-2.19.1.pom",
+    "sha512": "4a2c1a8b9a99049b80dccb672cdff0c7de7223401edfae708d9c5a217bbcef86f424f3099bf83dd47c036137129d52066a1ba332ac022ca4c7bf55e87b694933",
+    "dest": "build/repository/com/fasterxml/jackson/jackson-bom/2.19.1",
+    "dest-filename": "jackson-bom-2.19.1.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/com/fasterxml/jackson/jackson-parent/2.19.2/jackson-parent-2.19.2.pom",
+    "sha512": "8c4a0dca3ed71ca97d44ea6665025a4d3059d9ac64f6065e7cfa4a51ef7dd45c7cee374157148e3a07aa0cf0532dc9b22486bf3805bae5025c139e299b112f0a",
+    "dest": "build/repository/com/fasterxml/jackson/jackson-parent/2.19.2",
+    "dest-filename": "jackson-parent-2.19.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/com/fasterxml/oss-parent/55/oss-parent-55.pom",
+    "sha512": "1e1758084b1a2c1992d6f04eb027afdfe0ab743a0c4c878bff6e241b6cddebe0e73cb91c00ec7561294efe2642123927827393c818ad19c1395c1fbb30df99b6",
+    "dest": "build/repository/com/fasterxml/oss-parent/55",
+    "dest-filename": "oss-parent-55.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/com/fasterxml/oss-parent/61/oss-parent-61.pom",
+    "sha512": "24731b163cd4c1a3758c0dd8d743937fa1b36d37a58ca60d5487fc48d3e46e4c33b8e1374ee2952be972ff1c9a2fc8c551edf207f2d7fb312dafc33901316271",
+    "dest": "build/repository/com/fasterxml/oss-parent/61",
+    "dest-filename": "oss-parent-61.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/com/fasterxml/oss-parent/68/oss-parent-68.pom",
+    "sha512": "7c9d51b7fd00d0ea30d00d048ce2e9ab3ec1bae3073f9f52d034a66572d5e6680992e42695e649d826c1a3f4b8f089460df8d2549afd15afe45488b6f9984528",
+    "dest": "build/repository/com/fasterxml/oss-parent/68",
+    "dest-filename": "oss-parent-68.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/com/fasterxml/woodstox/woodstox-core/7.1.0/woodstox-core-7.1.0.jar",
+    "sha512": "257260a61892f52a94979c512cc86d3cfaf83c8c1ef231f15033f27c1af4c2b7928b7df9ac0005ef617746193273fe2df68ac0164d5f51e47be580506464b857",
+    "dest": "build/repository/com/fasterxml/woodstox/woodstox-core/7.1.0",
+    "dest-filename": "woodstox-core-7.1.0.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/com/fasterxml/woodstox/woodstox-core/7.1.0/woodstox-core-7.1.0.pom",
+    "sha512": "ea62babf58db841a24f9c4d027d8ba2a2d93e7cd5f1a9a3c726be7c558ca3bd381e66900edf587d968e54506c20f1665b738419b152de942b206225a769f0a4e",
+    "dest": "build/repository/com/fasterxml/woodstox/woodstox-core/7.1.0",
+    "dest-filename": "woodstox-core-7.1.0.pom"
+  },
+  {
+    "type": "file",
     "url": "https://plugins.gradle.org/m2/com/google/code/gson/gson-parent/2.13.2/gson-parent-2.13.2.pom",
     "sha512": "e6524dbb8aa13707fa51df7413a8b247a4de248812e212702e4e5888d0df29c6ebe39a3b1e09aefb12a1a095c42d19d074756a30918bfc4c1fe55c39b9a7c1fa",
     "dest": "build/repository/com/google/code/gson/gson-parent/2.13.2",
@@ -40,6 +89,62 @@
     "sha512": "ab85819cbab15554b3dbc1fd75eac6a13440178ee8c92a2b0fceeecac970f464d3aafc017842a2f7a692d15e7875389eb31ae9c0e08844990d7104f6c2f23f2a",
     "dest": "build/repository/com/google/errorprone/error_prone_parent/2.41.0",
     "dest-filename": "error_prone_parent-2.41.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/com/gradleup/shadow/com.gradleup.shadow.gradle.plugin/9.3.1/com.gradleup.shadow.gradle.plugin-9.3.1.pom",
+    "sha512": "5f2d8551ef63b0dd42535d0c42bb5d811e9cd6583745f4958035828b8ae2c10bdf9da885ef692eaf3115905fe48d65c1f9d5c42826fbfa51223950b65ff97259",
+    "dest": "build/repository/com/gradleup/shadow/com.gradleup.shadow.gradle.plugin/9.3.1",
+    "dest-filename": "com.gradleup.shadow.gradle.plugin-9.3.1.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/com/gradleup/shadow/shadow-gradle-plugin/9.3.1/shadow-gradle-plugin-9.3.1.jar",
+    "sha512": "856adaae78911ee03b1ae8927eb067fc910b860029461c6128b9894ed33615b92bd229a0954296a634f8a38273036514aae0bda6db3fa02088989eb8fa0f0ca6",
+    "dest": "build/repository/com/gradleup/shadow/shadow-gradle-plugin/9.3.1",
+    "dest-filename": "shadow-gradle-plugin-9.3.1.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/com/gradleup/shadow/shadow-gradle-plugin/9.3.1/shadow-gradle-plugin-9.3.1.module",
+    "sha512": "67a35aaa1f5f493e019cd080417fa37f3c0fbe0ab4a4ba064b8ae9a4dc9033c2fa4fa67099135dfa42b0e7c77538e9fadd6a0f23bb70e1d8646904b16a67245f",
+    "dest": "build/repository/com/gradleup/shadow/shadow-gradle-plugin/9.3.1",
+    "dest-filename": "shadow-gradle-plugin-9.3.1.module"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/com/gradleup/shadow/shadow-gradle-plugin/9.3.1/shadow-gradle-plugin-9.3.1.pom",
+    "sha512": "1687a63f468650fa6dcf52a923332651f0b06f6a7926cb6c74900d1547c7be8689112afb06a8f4966693baa1104969db7114e3dd712abe97306a5ac98a0fba01",
+    "dest": "build/repository/com/gradleup/shadow/shadow-gradle-plugin/9.3.1",
+    "dest-filename": "shadow-gradle-plugin-9.3.1.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/commons-codec/commons-codec/1.20.0/commons-codec-1.20.0.jar",
+    "sha512": "6a71738f99031685050aadf8579a6ff67ae5fa5b779d7f35e6b9fffcdd524c29ce6d9ba055f2a88b481e80552ae9e61daf09ae8f467c048afb475a763a643097",
+    "dest": "build/repository/commons-codec/commons-codec/1.20.0",
+    "dest-filename": "commons-codec-1.20.0.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/commons-codec/commons-codec/1.20.0/commons-codec-1.20.0.pom",
+    "sha512": "22ab6798c1e6f05b6d7d4209eaccf597fa6b53ab772676b6dfb82cc53359c16bb9194c1271eab414fd26c884fbcdb94e0dbc770e030b37a7c2865fcc904bb6d0",
+    "dest": "build/repository/commons-codec/commons-codec/1.20.0",
+    "dest-filename": "commons-codec-1.20.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/commons-io/commons-io/2.21.0/commons-io-2.21.0.jar",
+    "sha512": "7ac1aa4d834cd7cdecaee223a64c63d481810c73dfdb5109f402234a05cadf754e414cead99072f5140d4f7042ee084161935fb28129a631d908d989c5bbac5d",
+    "dest": "build/repository/commons-io/commons-io/2.21.0",
+    "dest-filename": "commons-io-2.21.0.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/commons-io/commons-io/2.21.0/commons-io-2.21.0.pom",
+    "sha512": "4728a13da04911617a5a3d981c21015f26551e636076d3a5fbaa12524f04ee46b7ec250a662a670688b5699ce92940e49b7ed70999ab3cfdaf4949ec6894449d",
+    "dest": "build/repository/commons-io/commons-io/2.21.0",
+    "dest-filename": "commons-io-2.21.0.pom"
   },
   {
     "type": "file",
@@ -89,6 +194,237 @@
     "sha512": "3149ff19058093c6665f5d0d5f36ca174250a5cad22a38710502071cfaa7520645dc00546e3b5190437c496ddb630d13815477934221ac7672e65a5b60ad8f6b",
     "dest": "build/repository/io/github/jwharm/flatpak-gradle-generator/plugin/1.6.0",
     "dest-filename": "plugin-1.6.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/jakarta/platform/jakarta.jakartaee-bom/9.1.0/jakarta.jakartaee-bom-9.1.0.pom",
+    "sha512": "7938ebe765028f8f231df08fa1e52550034d0b9278760c3b374b5ca21740fe90e2c8ff889c08a091575fe088d8f516d7510484359ea94c3e9ed23f5586567f5b",
+    "dest": "build/repository/jakarta/platform/jakarta.jakartaee-bom/9.1.0",
+    "dest-filename": "jakarta.jakartaee-bom-9.1.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/jakarta/platform/jakartaee-api-parent/9.1.0/jakartaee-api-parent-9.1.0.pom",
+    "sha512": "358a9b92ae14c9c8b2480a1d90675efacc7a9abb3ebde5fa15f2a114d860b7be9842dd70798721383158d6633e75e3b5c37f9555a58be5b6e4ecdf57838cbd43",
+    "dest": "build/repository/jakarta/platform/jakartaee-api-parent/9.1.0",
+    "dest-filename": "jakartaee-api-parent-9.1.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/ant/ant-launcher/1.10.15/ant-launcher-1.10.15.jar",
+    "sha512": "6fc2b33cde07493704c201b759e6813ba5f60ffd3925a52bb097a7fffedbc950bcc4fbc93fe0a86ec2a41872b16b92868b6be87632d3e8e0dc89a5b4143ccb9e",
+    "dest": "build/repository/org/apache/ant/ant-launcher/1.10.15",
+    "dest-filename": "ant-launcher-1.10.15.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/ant/ant-launcher/1.10.15/ant-launcher-1.10.15.pom",
+    "sha512": "1339d7d49178a5f78cc4dddcb6cdb4a49743a140a9bc12d7fc97f35767c2448d0cfd133288c54bec660491360660c7412a681d5adf800958757975709b735190",
+    "dest": "build/repository/org/apache/ant/ant-launcher/1.10.15",
+    "dest-filename": "ant-launcher-1.10.15.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/ant/ant-parent/1.10.15/ant-parent-1.10.15.pom",
+    "sha512": "a3deb6753ae42920c3cde18dda5a96b8fec3263c1a8e8e65a2f5f53410120fcae39db9b9962fbe7bc39f16658b6c57435d13dde4f50b36357e5a95f19be4ef26",
+    "dest": "build/repository/org/apache/ant/ant-parent/1.10.15",
+    "dest-filename": "ant-parent-1.10.15.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/ant/ant/1.10.15/ant-1.10.15.jar",
+    "sha512": "d5109838090a4463098c4a82c171d07b92d42633010e045388fb8a68744fdcdd2b07a75a9fb56783e83ecbcc80664119ccc44537993125d6724956e114508316",
+    "dest": "build/repository/org/apache/ant/ant/1.10.15",
+    "dest-filename": "ant-1.10.15.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/ant/ant/1.10.15/ant-1.10.15.pom",
+    "sha512": "a37e3ae2d032563d810a8f609c1d5d8ec0ae4793cdcf72dd275f89725ea399438b5834342828af77252651ffda0bd2e4f92c90ef2d49013c8ed50eac63c8acd3",
+    "dest": "build/repository/org/apache/ant/ant/1.10.15",
+    "dest-filename": "ant-1.10.15.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/apache/35/apache-35.pom",
+    "sha512": "d599ebf085e96ab2c0fa925fec99fc046f1763743a0445e5a4bf255d8259d44aec7bd175881accf1c6562e13efc26b13a54de01c49b46032464366d41869d7e8",
+    "dest": "build/repository/org/apache/apache/35",
+    "dest-filename": "apache-35.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/commons/commons-parent/91/commons-parent-91.pom",
+    "sha512": "c8bcacfe275a5c628179e44142f5af2c3b00febb2c58c488391a8101f636db8e5af16345bed427f673f99080e15c1a2a8f99a80720ba5e59c386958c1905e0af",
+    "dest": "build/repository/org/apache/commons/commons-parent/91",
+    "dest-filename": "commons-parent-91.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/groovy/groovy-bom/4.0.27/groovy-bom-4.0.27.pom",
+    "sha512": "50c3d4108e48058c9a0761c6bde742defedc393df49d110f51208f32b156085309420386d83a4474c31460620d2a44f3cfdcb4387311b9d50af62ac75f61f04f",
+    "dest": "build/repository/org/apache/groovy/groovy-bom/4.0.27",
+    "dest-filename": "groovy-bom-4.0.27.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/logging/log4j/log4j-api/2.25.3/log4j-api-2.25.3.jar",
+    "sha512": "ce9aaf5beec0fb8cbed8c4ae8a91a58d3f6935c731220b294d70f1569128b5ff367e1bf94d69572dd7ab05bff2a63bde5ff7489eb9743e8c307b644eaeadbc50",
+    "dest": "build/repository/org/apache/logging/log4j/log4j-api/2.25.3",
+    "dest-filename": "log4j-api-2.25.3.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/logging/log4j/log4j-api/2.25.3/log4j-api-2.25.3.module",
+    "sha512": "99c9fca00147b10e9dfe429ec71e23d61d48af6f4f6c4bc9f4f742fa4ad98222b88603288588c790e170f5ca6418b9f16cc143bc269504da033b994f4d169b2c",
+    "dest": "build/repository/org/apache/logging/log4j/log4j-api/2.25.3",
+    "dest-filename": "log4j-api-2.25.3.module"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/logging/log4j/log4j-api/2.25.3/log4j-api-2.25.3.pom",
+    "sha512": "f5d562192bd39b61888b1294ce30e4a9566a741a21ff3005e2aa71d97ab8947c586df194ee3df48cf9650bdfe16fd9e8c58aa20f70c6abca089528ee730bcfe3",
+    "dest": "build/repository/org/apache/logging/log4j/log4j-api/2.25.3",
+    "dest-filename": "log4j-api-2.25.3.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/logging/log4j/log4j-bom/2.25.3/log4j-bom-2.25.3.pom",
+    "sha512": "c74685af635596d18404b30c23971b7c300e50d574542f260920495474f36423e752070a3623e58ede6e18e5dac6cf16b69c0d5bfd7da673bea785c55a1e4d19",
+    "dest": "build/repository/org/apache/logging/log4j/log4j-bom/2.25.3",
+    "dest-filename": "log4j-bom-2.25.3.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/logging/log4j/log4j-core/2.25.3/log4j-core-2.25.3.jar",
+    "sha512": "64a0776adfd0b082f80e49f4afb8998c15d30c515a3441a074364d37479a2fc059bdd74694c3f609b1fae1d2eca0cb88347e1afd88774ac698a42b8744bf259f",
+    "dest": "build/repository/org/apache/logging/log4j/log4j-core/2.25.3",
+    "dest-filename": "log4j-core-2.25.3.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/logging/log4j/log4j-core/2.25.3/log4j-core-2.25.3.module",
+    "sha512": "8c27ad55e87bc8484e74f2c03fbddf1015ed7011e26e4c2e2a36c5f5241df1d099d48a7a9253f8185d5d55c990b8773eb25427d642e3d50edbc737cde4585299",
+    "dest": "build/repository/org/apache/logging/log4j/log4j-core/2.25.3",
+    "dest-filename": "log4j-core-2.25.3.module"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/logging/log4j/log4j-core/2.25.3/log4j-core-2.25.3.pom",
+    "sha512": "70d08161e20bf2bd080a9dce25613bbf00a0558c39d25944c27577c800bb1df37e7bc26220bccb5f13a6e8f731b74976a03d988a46963c59735fcb225f6efe9b",
+    "dest": "build/repository/org/apache/logging/log4j/log4j-core/2.25.3",
+    "dest-filename": "log4j-core-2.25.3.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/logging/log4j/log4j/2.25.3/log4j-2.25.3.pom",
+    "sha512": "463edf83a6ed927a5612fc92c5e5f312a7c92f55c834a3a090514baef49e5dbcfdaca2ce43111f9900f12febaec5f6fd7c2c1589d3680ce5db1f4e0ce86cf203",
+    "dest": "build/repository/org/apache/logging/log4j/log4j/2.25.3",
+    "dest-filename": "log4j-2.25.3.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/maven/maven-api-annotations/4.0.0-rc-3/maven-api-annotations-4.0.0-rc-3.jar",
+    "sha512": "981839b8d7a94e88c56e89e312292f606762cbc8b3c3957745c6545c760a2d7ebbc4e8a7378003295837037a980a7ab3c40ff50bb505c142e9a3259df45a3459",
+    "dest": "build/repository/org/apache/maven/maven-api-annotations/4.0.0-rc-3",
+    "dest-filename": "maven-api-annotations-4.0.0-rc-3.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/maven/maven-api-annotations/4.0.0-rc-3/maven-api-annotations-4.0.0-rc-3.pom",
+    "sha512": "fcef762b7605b3054caaa64e62639aaa1a2b09750942d74d864816c7648f6702c008c09ee612cc91ee49b443cecb3bb030bcdff217ad521ad11eb3d64b7d058e",
+    "dest": "build/repository/org/apache/maven/maven-api-annotations/4.0.0-rc-3",
+    "dest-filename": "maven-api-annotations-4.0.0-rc-3.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/maven/maven-api-xml/4.0.0-rc-3/maven-api-xml-4.0.0-rc-3.jar",
+    "sha512": "9b5a45e3e7ec7dd262a197f7ecbdefc6e60a1ae3b1c38d4247570baff08db1b8567117d79949cc548fecbdedc20200fefe3da4df69748fd44e7f014cb84bf2c3",
+    "dest": "build/repository/org/apache/maven/maven-api-xml/4.0.0-rc-3",
+    "dest-filename": "maven-api-xml-4.0.0-rc-3.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/maven/maven-api-xml/4.0.0-rc-3/maven-api-xml-4.0.0-rc-3.pom",
+    "sha512": "0d1897062779486ac31e5fd1dda56614f96f3478d016fd6b4fa9eb8a00785a841202006435576cee406b9007d266a361b29d85a6670d71c845aaa5fa4399f3a5",
+    "dest": "build/repository/org/apache/maven/maven-api-xml/4.0.0-rc-3",
+    "dest-filename": "maven-api-xml-4.0.0-rc-3.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/maven/maven-xml/4.0.0-rc-3/maven-xml-4.0.0-rc-3.jar",
+    "sha512": "80622c6cd1705a717a2b68b17c84fff913ad317b2df51017e7f88b260262279575eaf319812a78fd6892fbb94c7371659e14a385c0d4b40c1f5b15b7b6ca39f8",
+    "dest": "build/repository/org/apache/maven/maven-xml/4.0.0-rc-3",
+    "dest-filename": "maven-xml-4.0.0-rc-3.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/maven/maven-xml/4.0.0-rc-3/maven-xml-4.0.0-rc-3.pom",
+    "sha512": "cb9bd6d03addd845a11af7a34670a3b1c5fd6f1e6f12bb2da2a2d32923ccf48aea86eeb8c44d9060df434e3b7224dc880e5da42505139f370ff30f70f3ccac15",
+    "dest": "build/repository/org/apache/maven/maven-xml/4.0.0-rc-3",
+    "dest-filename": "maven-xml-4.0.0-rc-3.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.13.0/maven-plugin-annotations-3.13.0.pom",
+    "sha512": "061ad0e0f20a8d9f42f11df39d77ae8ecfbe1b06282d047e318a22a32c15ab80f33a69a15b9319286c35e2f3416aded318831d82d61209f41f8ed7014ce4992c",
+    "dest": "build/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.13.0",
+    "dest-filename": "maven-plugin-annotations-3.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/codehaus/plexus/plexus-utils/4.0.2/plexus-utils-4.0.2.jar",
+    "sha512": "a99751d7990df50fd1adc10634c4e14f5deddff8fc1b7c6d26a5c7fc517d3f0e3a8d39435c512c507a0737fc9c3ee67a8f121f9e2aa8b9bfe14d9f01a99a3aa6",
+    "dest": "build/repository/org/codehaus/plexus/plexus-utils/4.0.2",
+    "dest-filename": "plexus-utils-4.0.2.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/codehaus/plexus/plexus-utils/4.0.2/plexus-utils-4.0.2.pom",
+    "sha512": "e2c922d4371df0926435624ed586e3290f15d66cedb9281900d4116fb4266f9d0f211e1446f3eb882d6d50dc622c920d7ac872fb1712c2c0966f39cd863d7c3b",
+    "dest": "build/repository/org/codehaus/plexus/plexus-utils/4.0.2",
+    "dest-filename": "plexus-utils-4.0.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/codehaus/plexus/plexus-xml/4.1.0/plexus-xml-4.1.0.jar",
+    "sha512": "c183471d1b9bbb1b0685b1d205a3ab02a2199b725e72257213551d709857d1630319d3cc58b2bf586c7b55f55eb7112e4d54a03ac34a00e3a7d0636eed780292",
+    "dest": "build/repository/org/codehaus/plexus/plexus-xml/4.1.0",
+    "dest-filename": "plexus-xml-4.1.0.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/codehaus/plexus/plexus-xml/4.1.0/plexus-xml-4.1.0.pom",
+    "sha512": "02ebaa43c73508c9e773078b4396a7c20148e1e467d58b90717af5a6655480259068a2782a056104e5c492b3ac0eaa85371e69c3d57eb44c5cc8e77be1220a97",
+    "dest": "build/repository/org/codehaus/plexus/plexus-xml/4.1.0",
+    "dest-filename": "plexus-xml-4.1.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/codehaus/plexus/plexus/20/plexus-20.pom",
+    "sha512": "8add248b20d0b702da654e5cc4a9fa830ff832d45289e5eb3d87941c87e65f02830858028ad4e95d281f505f21afa9f5e80601023b21956d1157196e0f397aa4",
+    "dest": "build/repository/org/codehaus/plexus/plexus/20",
+    "dest-filename": "plexus-20.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/codehaus/woodstox/stax2-api/4.2.2/stax2-api-4.2.2.jar",
+    "sha512": "1c0587ecb4c5a659ce2ae1fe36ffc12636a8ecba549a29f2cf91cb4d1d36a335c05f35776f480488d40d894230389f76aeeb363887026c6ef5c565995c17b7c6",
+    "dest": "build/repository/org/codehaus/woodstox/stax2-api/4.2.2",
+    "dest-filename": "stax2-api-4.2.2.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/codehaus/woodstox/stax2-api/4.2.2/stax2-api-4.2.2.pom",
+    "sha512": "64b95aefd534bcc90612e6432516b6a8aa1112869c0f329d60cbab202728bba64b5e90756a718d849a7d71b3df00d09e9fd0dada5651841245d4b603bb8d1b5f",
+    "dest": "build/repository/org/codehaus/woodstox/stax2-api/4.2.2",
+    "dest-filename": "stax2-api-4.2.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/eclipse/ee4j/project/1.0.7/project-1.0.7.pom",
+    "sha512": "b33f5cf3404c4f9f5cbb69a43dcde2d6f06d6cb3d00444dbce879a1bf14f0be4e3093f21be1aa85104cf45ae86ba69374949e35ed567f82f6ede5812140628de",
+    "dest": "build/repository/org/eclipse/ee4j/project/1.0.7",
+    "dest-filename": "project-1.0.7.pom"
   },
   {
     "type": "file",
@@ -218,6 +554,90 @@
   },
   {
     "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.jar",
+    "sha512": "81642db76358fbf131dfe9c2f1d9c280fc23b6bfde6a16a2d36dacc490a1a2af4e0fb4abb5cd78005718bb1d158a42fd6834cd2bfe616ec59625df01951f2478",
+    "dest": "build/repository/org/jdom/jdom2/2.0.6.1",
+    "dest-filename": "jdom2-2.0.6.1.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.pom",
+    "sha512": "b20863c99ff181eb407352bcfd2adfd9b23ca01e7898bd0fdfe6dd345a2a96f0a20ee0bdb61b06f1b8dd298c3e59d78e501abe2828eb8db5ddea38e314238c5f",
+    "dest": "build/repository/org/jdom/jdom2/2.0.6.1",
+    "dest-filename": "jdom2-2.0.6.1.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jetbrains/annotations/13.0/annotations-13.0.jar",
+    "sha512": "5622d0ffe410e7272e2bb9fae1006caedeb86d0c62d2d9f3929a3b3cdcdef1963218fcf0cede82e95ef9f4da3ed4a173fa055ee6e4038886376181e0423e02ff",
+    "dest": "build/repository/org/jetbrains/annotations/13.0",
+    "dest-filename": "annotations-13.0.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jetbrains/annotations/13.0/annotations-13.0.pom",
+    "sha512": "63ef480f698215d4cd4501b06e86df1a741ac2b86216fd3ff6eee146da746caa390df27351e25598971edb368aeae41055ff1ed77e4bf5d7edb6abc832d150ce",
+    "dest": "build/repository/org/jetbrains/annotations/13.0",
+    "dest-filename": "annotations-13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-metadata-jvm/2.3.0/kotlin-metadata-jvm-2.3.0.jar",
+    "sha512": "9e31444f2f83383f2eee22699c1bda4f680dda6694516ecbba5fece86c672b21ed2c0e8f745a70d7b5f50d7988acdbde7e569a602c9378f693c5dab21a23d9d6",
+    "dest": "build/repository/org/jetbrains/kotlin/kotlin-metadata-jvm/2.3.0",
+    "dest-filename": "kotlin-metadata-jvm-2.3.0.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-metadata-jvm/2.3.0/kotlin-metadata-jvm-2.3.0.pom",
+    "sha512": "15ca7092b902374f555a1c1e3b228c190b1c91d4b6ed6a3bbe9d5d1b5aec7a66ce3148c14dbd0aeb6ce4e6df08216280e260c4780d0d2b9ae975eeeee2f81b37",
+    "dest": "build/repository/org/jetbrains/kotlin/kotlin-metadata-jvm/2.3.0",
+    "dest-filename": "kotlin-metadata-jvm-2.3.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-common/2.3.0/kotlin-stdlib-common-2.3.0.pom",
+    "sha512": "706f036e03a2084c9bd790f3d2b462629f23b2fb79039a84f5f548b59b4fdfe3a98206a7c05fb2927e847dade6f43a112ee926f411c1261fee5aa7cadd73a623",
+    "dest": "build/repository/org/jetbrains/kotlin/kotlin-stdlib-common/2.3.0",
+    "dest-filename": "kotlin-stdlib-common-2.3.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.0/kotlin-stdlib-jdk7-1.8.0.pom",
+    "sha512": "f18fd89c03d5abccf2eb2a8306044dc505e29a2bb97e2d8afdd102d7d8c42908494182daa6133e8dceb221c8bcb9a52f62c7a7232c6657abb9c91c77b2a65af7",
+    "dest": "build/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.0",
+    "dest-filename": "kotlin-stdlib-jdk7-1.8.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.0/kotlin-stdlib-jdk8-1.8.0.pom",
+    "sha512": "2c5b573c0e5fcd9137b614586f7e4b5becaff8edcd15431e785bce5014bd23e3c70f22be5fd95ab15ab99326fddc2b27fcdc9726312a59c4d47d34e88940d3f9",
+    "dest": "build/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.0",
+    "dest-filename": "kotlin-stdlib-jdk8-1.8.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.3.0/kotlin-stdlib-2.3.0.jar",
+    "sha512": "2d19829e49ce79b8587ffc1620f95c4773ec85780f45c609017fa411064c0edbd76fc7c1333775814693258cd9c932d82bc94d18d2c545fc90198fdd3087d6a8",
+    "dest": "build/repository/org/jetbrains/kotlin/kotlin-stdlib/2.3.0",
+    "dest-filename": "kotlin-stdlib-2.3.0.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.3.0/kotlin-stdlib-2.3.0.module",
+    "sha512": "04bc39c3d5650bc8b212f995fb81e872fe563ce3ecb2ff5355ca33bd1b73b6c44e02fbe9492f2222bfe000a8646bb7e02761d543bd7f4cdb4e49266e01a350d3",
+    "dest": "build/repository/org/jetbrains/kotlin/kotlin-stdlib/2.3.0",
+    "dest-filename": "kotlin-stdlib-2.3.0.module"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.3.0/kotlin-stdlib-2.3.0.pom",
+    "sha512": "a19afd768945fd94d9a3167b390a6088cd33fdeba5bbd3817e8bf3946f88b9ba3fb370bbe9441347b4d78e60acd3e0fa3e1a4f0f9ec89dd87e3acd60ef2d0305",
+    "dest": "build/repository/org/jetbrains/kotlin/kotlin-stdlib/2.3.0",
+    "dest-filename": "kotlin-stdlib-2.3.0.pom"
+  },
+  {
+    "type": "file",
     "url": "https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar",
     "sha512": "efded31ef5b342f09422935076e599789076431e93a746685c0607e7de5592719ba6aacde0be670b3f064d1e85630d58d5bce6b34aed2a288fdb34f745efb7bc",
     "dest": "build/repository/org/jspecify/jspecify/1.0.0",
@@ -236,5 +656,180 @@
     "sha512": "291d8fb333121ba18ebd427e7ee5e98694be797b8280a228be7c4958af934b2465f341957248dcd396f5ffbe99dd9a65aa61cef70ca772ee37a92c3d20e41f32",
     "dest": "build/repository/org/jspecify/jspecify/1.0.0",
     "dest-filename": "jspecify-1.0.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/junit-bom/5.11.4/junit-bom-5.11.4.pom",
+    "sha512": "303612e72adb3af46265aa7c60718dd51baccb576d4a9820ae3aa94c5119d6c9b3a3168993dd1a6692154786cbbd33eba99985842fc45125a18a1c44d490a8c1",
+    "dest": "build/repository/org/junit/junit-bom/5.11.4",
+    "dest-filename": "junit-bom-5.11.4.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/junit-bom/5.13.2/junit-bom-5.13.2.pom",
+    "sha512": "d557142227e27ecee6f3bdc77a7765cec614a2a4b7e88c9343dad30b53648708e8f17e422a9a2cec6aefa9c0c8bc07f573da23ed68211a399ea0a80426011489",
+    "dest": "build/repository/org/junit/junit-bom/5.13.2",
+    "dest-filename": "junit-bom-5.13.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/junit-bom/5.13.4/junit-bom-5.13.4.pom",
+    "sha512": "ec795b2f32982c1af8dccef57553aa9d959c13ee829aebd6459ba22b4ef434aeb4184aa89f63ad2f0d8c45d59cd020a15cd976ddb4bf20f1044b492a406e029e",
+    "dest": "build/repository/org/junit/junit-bom/5.13.4",
+    "dest-filename": "junit-bom-5.13.4.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.pom",
+    "sha512": "3058445ff0c96a9898f8b79e66a1b0af49a37da48bf39310696802f8cca3aa318f1ab8b5f3f209b64ed3a56134a1e2c20ca916e53908536430495c4e34e650f7",
+    "dest": "build/repository/org/junit/jupiter/junit-jupiter-api/5.10.2",
+    "dest-filename": "junit-jupiter-api-5.10.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.pom",
+    "sha512": "6fcc469a3d9f77cb6c0a61f0b63a441be1fd7a015eae3e4acd44493fbf93156b2f9a0bd48d39c88931656dc877336504d8a6cf31e3239b100b2bf99f55aef291",
+    "dest": "build/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2",
+    "dest-filename": "junit-jupiter-engine-5.10.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/jupiter/junit-jupiter-migrationsupport/5.10.2/junit-jupiter-migrationsupport-5.10.2.pom",
+    "sha512": "77d95350596ac135b3d64f55be4b37efc241f435e40f90bdfeacf97ec5d1125f7d44b9582321317e423601d26968ab80ff3a44a2555cf1aa51a835c78caafc19",
+    "dest": "build/repository/org/junit/jupiter/junit-jupiter-migrationsupport/5.10.2",
+    "dest-filename": "junit-jupiter-migrationsupport-5.10.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.pom",
+    "sha512": "9180a173c87c6bdf0a056f57b1ddc8f31bbb79226945f28eaa390d3e091d3bd61ba42fa6131b068734157991c94bcb3c34c0c44841c3c56b8a352b22a04a1132",
+    "dest": "build/repository/org/junit/jupiter/junit-jupiter-params/5.10.2",
+    "dest-filename": "junit-jupiter-params-5.10.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.pom",
+    "sha512": "11cdf9cb24845eae5fe8935ea48f4274010ca49d8c7aba99f01974754b741c045903624c3fbee495772ad2cce97efa26b10a4c5b2a27705e646a06fc19f90d76",
+    "dest": "build/repository/org/junit/jupiter/junit-jupiter/5.10.2",
+    "dest-filename": "junit-jupiter-5.10.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.pom",
+    "sha512": "7440a45b54cf9716de90cb003a9e1dc8d085e7b9ae656b04f55f268c1e4b2ee2919380daac544ece41b28bb7161ab2bee3d75b408f01bf1437a23211072eec65",
+    "dest": "build/repository/org/junit/platform/junit-platform-commons/1.10.2",
+    "dest-filename": "junit-platform-commons-1.10.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/platform/junit-platform-console/1.10.2/junit-platform-console-1.10.2.pom",
+    "sha512": "1514bc674713b8104df20a25e2448980970f5cd92c2aa38052911207d4b69baaf9ca6510e41d114e68761bcf16ab710effe15de5546195eaad36b4dbe8f8101f",
+    "dest": "build/repository/org/junit/platform/junit-platform-console/1.10.2",
+    "dest-filename": "junit-platform-console-1.10.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.pom",
+    "sha512": "3fb49e53f5e3a426d31806bcc1379ce7af2befd9e53690c9812ab6cbd13bcef15bd13edcfa7c9fbd934d643c9e0f176673b5900b8b24a576f3b0d95212dd918a",
+    "dest": "build/repository/org/junit/platform/junit-platform-engine/1.10.2",
+    "dest-filename": "junit-platform-engine-1.10.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/platform/junit-platform-jfr/1.10.2/junit-platform-jfr-1.10.2.pom",
+    "sha512": "9877d4d101f735454e38ff6f91982e6024a2bb53adefe9459744bccf40e3fc049af0b6ccdd103118aba8e95643d869d346b527d7cbc16df8ef680b68c1abdf9f",
+    "dest": "build/repository/org/junit/platform/junit-platform-jfr/1.10.2",
+    "dest-filename": "junit-platform-jfr-1.10.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.pom",
+    "sha512": "2ad36f2a620e1c3c052ee8853c8a682c5028c658530071acab1409efdf42f8543818faf25d4e5d80398a4681a7406ab841b36c9e84551e1f20bed22b3d545f87",
+    "dest": "build/repository/org/junit/platform/junit-platform-launcher/1.10.2",
+    "dest-filename": "junit-platform-launcher-1.10.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/platform/junit-platform-reporting/1.10.2/junit-platform-reporting-1.10.2.pom",
+    "sha512": "b7d9e0f437786d97a3c768db3900071559c48181f6d62696a1f2fb53740f62b19632dee14434c4e2d8877262d247c4e964c0f7f7ddd0fca6cb0f976476df604b",
+    "dest": "build/repository/org/junit/platform/junit-platform-reporting/1.10.2",
+    "dest-filename": "junit-platform-reporting-1.10.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/platform/junit-platform-runner/1.10.2/junit-platform-runner-1.10.2.pom",
+    "sha512": "3e244a330657cd7402e076d8223fde46e538f87864db5e2d3f5cada8444a3e68285e7027844f7e4d9b61395e03b23b37c4e4f9ed60888ab12db7ace3e1d9a7c9",
+    "dest": "build/repository/org/junit/platform/junit-platform-runner/1.10.2",
+    "dest-filename": "junit-platform-runner-1.10.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/platform/junit-platform-suite-api/1.10.2/junit-platform-suite-api-1.10.2.pom",
+    "sha512": "40c6d8a0d56ed395d7d33fd8e6796c2e8881b51fae01ae230133a4445fe9175cd29f9d6ab1ab4a55a2525507a1f18f9b3638845d00ccbbff1b9df8da56a6de15",
+    "dest": "build/repository/org/junit/platform/junit-platform-suite-api/1.10.2",
+    "dest-filename": "junit-platform-suite-api-1.10.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/platform/junit-platform-suite-commons/1.10.2/junit-platform-suite-commons-1.10.2.pom",
+    "sha512": "eb882419b299389dd0478e7221859d078b6ea843112158c1c555dee14d6d30bb2e559619e44a051825b616a67b5041865b9cd571b466c9bae6d7e639f7d2f7dd",
+    "dest": "build/repository/org/junit/platform/junit-platform-suite-commons/1.10.2",
+    "dest-filename": "junit-platform-suite-commons-1.10.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/platform/junit-platform-suite-engine/1.10.2/junit-platform-suite-engine-1.10.2.pom",
+    "sha512": "a6ac8a2a529e415decac5af5fc68e56a4b07cfbd5390dca638c0ed78ef1f011351e22d9e898f569b516566dc927f72d0c4511f8ff123476e86ae7883d114c9b8",
+    "dest": "build/repository/org/junit/platform/junit-platform-suite-engine/1.10.2",
+    "dest-filename": "junit-platform-suite-engine-1.10.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/platform/junit-platform-suite/1.10.2/junit-platform-suite-1.10.2.pom",
+    "sha512": "1de59ad55e382ba889603791a67159041ca8b5a0cd04e154339b6c668cfa214b42fc3ff48c3e79702be78b2cb32002dce1ab78970e5a7ced67bb1e518101c706",
+    "dest": "build/repository/org/junit/platform/junit-platform-suite/1.10.2",
+    "dest-filename": "junit-platform-suite-1.10.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/platform/junit-platform-testkit/1.10.2/junit-platform-testkit-1.10.2.pom",
+    "sha512": "ac3c2a5119b50177e85e6aa564d9165a0a5bc800195efed1c0d4c58996584f06af27f2790b699b1f4d46d43214f96e163434c84cdf4de48562c0b1236177957e",
+    "dest": "build/repository/org/junit/platform/junit-platform-testkit/1.10.2",
+    "dest-filename": "junit-platform-testkit-1.10.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/junit/vintage/junit-vintage-engine/5.10.2/junit-vintage-engine-5.10.2.pom",
+    "sha512": "cb1d5a44035a03fafe0320766bdd407866bbd0822bdeb39a7dead5bbc49080fe279b5b933f897cadee0781937359fded07d4e23a5a7d3d0bd4b4babee66f99e7",
+    "dest": "build/repository/org/junit/vintage/junit-vintage-engine/5.10.2",
+    "dest-filename": "junit-vintage-engine-5.10.2.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/mockito/mockito-bom/4.11.0/mockito-bom-4.11.0.pom",
+    "sha512": "6bdf2809a5a479f73975ddb87cb102db88dac702904b89e8dcd9b9057dbbce67abb85d9cfbefda79c152d928346122eced122d2af17617772abeae0c383cc16a",
+    "dest": "build/repository/org/mockito/mockito-bom/4.11.0",
+    "dest-filename": "mockito-bom-4.11.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/springframework/spring-framework-bom/5.3.39/spring-framework-bom-5.3.39.pom",
+    "sha512": "3cdfeab209e770d9b555bb759c958f816a4313413f8deb4060954aa72a2170de5f2e90e6b076cd185e853cdc02f5bd7356720084c90a3cbe5847bd6d04e5017c",
+    "dest": "build/repository/org/springframework/spring-framework-bom/5.3.39",
+    "dest-filename": "spring-framework-bom-5.3.39.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/vafer/jdependency/2.14/jdependency-2.14.jar",
+    "sha512": "eb704fbbc780aeaf98670abe161d821867ae1fa4cd8819dd47fe5c8f2e8c54159010f1059a81d3da30d791fbe2c3aa89c44e77b8ad48d3e5793e654a184af7e5",
+    "dest": "build/repository/org/vafer/jdependency/2.14",
+    "dest-filename": "jdependency-2.14.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/vafer/jdependency/2.14/jdependency-2.14.pom",
+    "sha512": "b10af164ce210da787682c28e1b5cc2433a7bdb3c5941f2d6f47090cfa4e46b7dd7bbcaeba929d9e838844b53c6070f666696aa19ceb86643520ca54b4d43094",
+    "dest": "build/repository/org/vafer/jdependency/2.14",
+    "dest-filename": "jdependency-2.14.pom"
   }
 ]

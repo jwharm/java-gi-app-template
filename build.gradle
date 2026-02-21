@@ -3,6 +3,7 @@ import org.apache.tools.ant.taskdefs.condition.Os
 plugins {
     id "application"
     id "io.github.jwharm.flatpak-gradle-generator" version "1.6.0"
+    id "com.gradleup.shadow" version "9.3.1"
 }
 
 repositories {
@@ -18,18 +19,13 @@ dependencies {
 tasks.flatpakGradleGenerator {
     outputFile.set(file("$rootDir/data/maven-dependencies.json"))
     downloadDirectory.set("build/repository")
+    excludeConfigurations = ['testCompileClasspath', 'testRuntimeClasspath']
 }
 
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(25)
     }
-}
-
-// This task will install into the "/app" directory, even when it is not empty
-tasks.register("install", Copy) {
-    from installDist
-    into "/app"
 }
 
 application {
