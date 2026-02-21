@@ -72,17 +72,16 @@ the flatpak-builder state directory.
 
 You can open the project folder in IntelliJ IDEA and it will
 automatically load the Gradle project. To run the application
-from IntelliJ, start the `application` gradle task.
+from IntelliJ, start the `application` gradle task. The app will
+have a striped headerbar to indicate it as a developer build.
 
 Be aware that a locally running application cannot load settings
 and translations, but you can load the gresource bundle, provided
-it is compiled first. Use `glib-compile-resources` to do that.
-
-The Gradle build script contains a `"compileResources"` task for
-convenience. It will create a compiled gresource bundle in the
-`data` folder, so don't forget to change the `RESOURCE_DIR` in
-`Example.java` to `"data"` when you want to run the app with a
-locally compiled gresource bundle.
+it is compiled first. Use `glib-compile-resources` to do that;
+the Gradle build script contains a `"compileResources"` task for
+this purpose. It will create a compiled gresource bundle in the
+`data` folder. The app will automatically look for the gresource
+bunding in that location when running it with Gradle.
 
 ### Translations
 
