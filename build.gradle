@@ -51,8 +51,13 @@ application {
         ]
     else
         applicationDefaultJvmArgs += [
-            "-Djavagi.path=/usr/lib/x86_64-linux-gnu:/lib64:/usr/lib64:/lib:/usr/lib",
+            "-Djavagi.path=/usr/lib/x86_64-linux-gnu:/lib64:/usr/lib64:/lib:/usr/lib"
         ]
+}
+
+// The "devel" profile will add the "devel" CSS class to the main window.
+run {
+    environment "PROFILE", "devel"
 }
 
 /* This task can be used to manually compile a gresource bundle.

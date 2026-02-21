@@ -25,6 +25,9 @@ public class ExampleWindow extends ApplicationWindow {
      */
     public ExampleWindow (Application app) {
         setApplication(app);
+
+        if (Example.DEVEL_PROFILE)
+            addCssClass("devel");
     }
 }
 

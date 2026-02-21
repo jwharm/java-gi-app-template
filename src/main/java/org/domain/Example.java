@@ -12,11 +12,11 @@ import org.gnome.gio.Resource;
  * gresource bundle and start an Application instance.
  */
 public class Example {
-
+    public static final boolean DEVEL_PROFILE = "devel".equalsIgnoreCase(System.getenv("PROFILE"));
     public static final String APPLICATION_ID = "org.domain.Example";
     public static final String LOCALE_DIR = "/app/share/locale";
     public static final String GETTEXT_DOMAIN = "example";
-    public static final String RESOURCE_DIR = "/app/share/" + APPLICATION_ID;
+    public static final String RESOURCE_DIR = DEVEL_PROFILE ? "data" : ("/app/share/" + APPLICATION_ID);
 
     /**
      * Run the application
@@ -26,13 +26,9 @@ public class Example {
      */
     public static void main(String[] args) throws GErrorException {
         // Initialize gettext
-        try {
-            Intl.bindtextdomain(GETTEXT_DOMAIN, LOCALE_DIR);
-            Intl.textdomain(GETTEXT_DOMAIN);
-        } catch (Throwable _) {
-        	GLib.log(APPLICATION_ID, LogLevelFlags.LEVEL_WARNING, "Cannot initialize gettext\n");
-        }
-        
+        Intl.bindtextdomain(GETTEXT_DOMAIN, LOCALE_DIR);
+        Intl.textdomain(GETTEXT_DOMAIN);
+
         // Load gresource
         var resource = Resource.load(RESOURCE_DIR + "/org.domain.Example.gresource");
         resource.resourcesRegister();
