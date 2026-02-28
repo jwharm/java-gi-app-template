@@ -1,6 +1,7 @@
 ### Flatpak template
 .flatpak-builder
 build
+builddir
 build-dir
 repo
 

@@ -56,16 +56,34 @@ run {
     environment "PROFILE", "devel"
 }
 
-/* This task can be used to manually compile a gresource bundle.
+/* These tasks can be used to manually compile the blueprint files into a
+ * gresource bundle.
  *
- * Make sure that "glib-compile-resources" is installed. It should be included
- * in the GTK development packages for your operating system (for example, on
- * Ubuntu, install libglib2.0-dev).
+ * Make sure that "blueprint-compiler" and "glib-compile-resources" are
+ * installed. They should be included in the GTK development packages for your
+ * operating system (for example, on Ubuntu, install the blueprint-compiler and
+ * libglib2.0-dev packages).
  */
+tasks.register("compileBlueprints", Exec) {
+    def files = fileTree("src/main/blueprint") {
+        include "**/*.blp"
+    }.files
+
+    group = "build"
+    commandLine "blueprint-compiler",
+            "batch-compile",
+            "build/generated/ui",
+            "src/main/blueprint",
+            *files.toList().toArray()
+}
+
 tasks.register("compileResources", Exec) {
+    def resourceFile = "org.domain.Example.gresource"
+
+    dependsOn compileBlueprints
     group = "build"
     commandLine "glib-compile-resources",
-                "--sourcedir=src/main/gresource",
-                "--target=data/org.domain.Example.gresource",
+                "--sourcedir=build/generated/ui",
+                "--target=build/generated/org.domain.Example.gresource",
                 "data/org.domain.Example.gresource.xml"
 }

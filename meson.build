@@ -6,6 +6,7 @@ project('example',
 i18n = import('i18n')
 gnome = import('gnome')
 
+subdir('src/main/blueprint')
 subdir('data')
 subdir('po')
 

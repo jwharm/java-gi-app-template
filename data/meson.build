@@ -35,7 +35,7 @@ test('Validate schema file', compile_schemas,
 resources = gnome.compile_resources(
   'org.domain.Example',
   'org.domain.Example.gresource.xml',
-        source_dir: meson.project_source_root() / 'src' / 'main' / 'gresource',
+      dependencies: blueprints,
   gresource_bundle: true,
        install_dir: get_option('datadir') / 'org.domain.Example',
            install: true

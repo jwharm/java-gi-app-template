@@ -11,6 +11,8 @@ Meson. The Flatpak manifest will run Meson, and Meson runs Gradle.
 Features:
 
 * GNOME 49 & Adwaita example application, written in Java (OpenJDK 25)
+* [Blueprint](https://gnome.pages.gitlab.gnome.org/blueprint-compiler)
+  user interface definition
 * Compilation and installation of settings schema and gresource bundle
 * Translated with GNU Gettext
 * Template icons, desktop file, metainfo file
@@ -18,9 +20,9 @@ Features:
 
 The template application is called "example" and uses the 
 application id "org.domain.Example". This isn't dynamically
-configurable (yet), so you'll have to search and replace this
-manually. You'll also want to replace the `COPYING` and
-`README.md` files with your own versions.
+configurable, so you'll have to search and replace this manually.
+You'll also want to replace the `COPYING` and `README.md` files
+with your own versions.
 
 ## Installation instructions
 
@@ -72,26 +74,43 @@ the flatpak-builder state directory.
 
 You can open the project folder in IntelliJ IDEA and it will
 automatically load the Gradle project. To run the application
-from IntelliJ, start the `application` gradle task. The app will
-have a striped headerbar to indicate it as a developer build.
+from IntelliJ, compile the blueprint files (see below) and then
+start the app with the gradle `run` task. The app will have a
+striped headerbar to indicate it as a developer build.
 
-Be aware that a locally running application cannot load settings
-and translations, but you can load the gresource bundle, provided
-it is compiled first. Use `glib-compile-resources` to do that;
-the Gradle build script contains a `"compileResources"` task for
-this purpose. It will create a compiled gresource bundle in the
-`data` folder. The app will automatically look for the gresource
-bunding in that location when running it with Gradle.
+Be aware that a locally running application cannot load settings,
+icons and translations.
+
+### Blueprint files
+
+Blueprint (.blp) files are located in `src/main/blueprint`. When
+you change them, they must be compiled to XML (.ui) format with
+`blueprint-compiler`. The output .ui files are then compiled into
+a gresource bundle with `glib-compile-resources`.
+
+When you create a new Blueprint file, add the filename to the
+`meson.build` file in the same directory, and to `po/POTFILES.in`
+if the file contains translatable strings.
+
+To run the blueprint compiler and build the gresource bundle
+manually, you need to have both the tools mentioned above
+installed locally.
+
+The Gradle build script contains a `"compileResources"` task that
+calls `blueprint-compiler` and `glib-compile-resources`. It will
+create a compiled gresource bundle in the `build/generated` folder.
+The app will automatically look for the gresource bundle in that
+location when running it with the Gradle `run` task.
 
 ### Translations
 
-The application is translations with GNU gettext. It is
+The application is translated with GNU gettext. Gettext is
 initialized in the `main` method in `Example.java`.
 
 With gettext, all translatable strings in Java source code,
-UI files, and other resources, are translated in the same way.
-The only requirement is that all files that contain translatable
-strings, are added to `po/POTFILES.in`.
+blueprint files and other resources are translated in the same
+way. The only requirement is that all files that contain
+translatable strings, are added to `po/POTFILES.in`.
 
 To create translatable strings in Java, add a static import of
 `org.javagi.util.Intl.i18n` and use `i18n("text to translate")`.

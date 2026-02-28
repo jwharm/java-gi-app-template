@@ -3,7 +3,7 @@
 data/org.domain.Example.desktop.in
 data/org.domain.Example.gschema.xml
 data/org.domain.Example.metainfo.xml.in
-src/main/gresource/example-window.ui
+src/main/blueprint/example-window.blp
 src/main/java/org/domain/Example.java
 src/main/java/org/domain/ExampleApplication.java
 src/main/java/org/domain/ExampleWindow.java

@@ -1,10 +1,7 @@
 package org.domain;
 
 import org.javagi.base.GErrorException;
-import org.javagi.interop.Interop;
 import org.javagi.util.Intl;
-import org.gnome.glib.GLib;
-import org.gnome.glib.LogLevelFlags;
 import org.gnome.gio.Resource;
 
 /**
@@ -16,7 +13,8 @@ public class Example {
     public static final String APPLICATION_ID = "org.domain.Example";
     public static final String LOCALE_DIR = "/app/share/locale";
     public static final String GETTEXT_DOMAIN = "example";
-    public static final String RESOURCE_DIR = DEVEL_PROFILE ? "data" : ("/app/share/" + APPLICATION_ID);
+    public static final String RESOURCE_DIR = DEVEL_PROFILE ? "build/generated"
+                                                            : ("/app/share/" + APPLICATION_ID);
 
     /**
      * Run the application
@@ -30,7 +28,7 @@ public class Example {
         Intl.textdomain(GETTEXT_DOMAIN);
 
         // Load gresource
-        var resource = Resource.load(RESOURCE_DIR + "/org.domain.Example.gresource");
+        var resource = Resource.load(RESOURCE_DIR + "/" + APPLICATION_ID + ".gresource");
         resource.resourcesRegister();
 
         // Create and run the application

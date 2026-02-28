@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: example\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-10 16:20+0100\n"
+"POT-Creation-Date: 2026-02-28 15:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,35 +37,39 @@ msgstr ""
 msgid "No description"
 msgstr ""
 
+#: data/org.domain.Example.metainfo.xml.in:14
+msgid "Developer name"
+msgstr ""
+
 #: data/org.domain.Example.metainfo.xml.in:52
 #: data/org.domain.Example.metainfo.xml.in:56
 msgid "A caption"
 msgstr ""
 
-#: src/main/java/org/domain/ExampleApplication.java:96
-msgid "Hello again!"
-msgstr ""
-
-#: src/main/gresource/example-window.ui:15
+#: src/main/blueprint/example-window.blp:13
 msgid "Template application"
 msgstr ""
 
-#: src/main/gresource/example-window.ui:34
+#: src/main/blueprint/example-window.blp:31
 msgid "Hello, World!"
 msgstr ""
 
-#: src/main/gresource/example-window.ui:47
+#: src/main/blueprint/example-window.blp:44
 msgid "_Preferences"
 msgstr ""
 
-#: src/main/gresource/example-window.ui:51
+#: src/main/blueprint/example-window.blp:49
 msgid "_Keyboard Shortcuts"
 msgstr ""
 
-#: src/main/gresource/example-window.ui:55
+#: src/main/blueprint/example-window.blp:54
 msgid "_Say hello!"
 msgstr ""
 
-#: src/main/gresource/example-window.ui:59
+#: src/main/blueprint/example-window.blp:59
 msgid "_About Example application"
+msgstr ""
+
+#: src/main/java/org/domain/ExampleApplication.java:96
+msgid "Hello again!"
 msgstr ""
