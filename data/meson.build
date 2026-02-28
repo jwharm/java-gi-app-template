@@ -7,10 +7,8 @@ desktop_file = i18n.merge_file(
   install_dir: get_option('datadir') / 'applications'
 )
 
-desktop_utils = find_program('desktop-file-validate', required: false)
-if desktop_utils.found()
-  test('Validate desktop file', desktop_utils, args: [desktop_file])
-endif
+desktop_utils = find_program('desktop-file-validate', required: false, disabler: true)
+test('Validate desktop file', desktop_utils, args: [desktop_file])
 
 appstream_file = i18n.merge_file(
         input: 'org.domain.Example.metainfo.xml.in',
@@ -30,8 +28,7 @@ install_data('org.domain.Example.gschema.xml',
 )
 
 compile_schemas = find_program('glib-compile-schemas', required: false, disabler: true)
-test('Validate schema file',
-     compile_schemas,
+test('Validate schema file', compile_schemas,
      args: ['--strict', '--dry-run', meson.current_source_dir()]
 )
 
@@ -54,4 +51,3 @@ configure_file(
 )
 
 subdir('icons')
-
